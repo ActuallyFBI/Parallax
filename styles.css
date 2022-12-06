@@ -61,7 +61,7 @@ header {
 
 .title {
   text-align: center;
-  font-size: 0px;
+  font-size: 40px;
   color: rgb(183, 119, 208);
   font-family: "Patua One";
   margin-top: 43%;
@@ -72,8 +72,8 @@ header {
 }
 
 section {
-  font-size: 4rem;
-  padding: 20rem;
+  font-size: 2rem;
+  padding: 100px;
   color: rgb(0, 0, 0);
 }
 
