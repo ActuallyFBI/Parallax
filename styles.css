@@ -47,7 +47,7 @@ header {
 
 .background--6 {
   transform: translateZ(-5px) scale(1.5);
-  margin-top: 6350px;
+  margin-top: 150px;
 }
 
 .background--1, .background--2, .background--3, .background--4, .background--5, .background--6, .worm {
@@ -61,26 +61,32 @@ header {
 
 .title {
   text-align: center;
-  font-size: 45rem;
+  font-size: 40px;
   color: rgb(183, 119, 208);
   font-family: "Patua One";
   margin-top: 43%;
-  font-weight: 600;
+  text-shadow: -5px 5px 2px rgb(255, 246, 0),
+  5px 5px 2px rgb(255, 246, 0),
+  5px -5px 0 rgb(255, 246, 0),
+  -5px -5px 0 rgb(255, 246, 0);
 }
 
 section {
-  margin-top: 2600px;
   font-size: 4rem;
-  padding: 2rem;
+  padding: 20rem;
   color: rgb(0, 0, 0);
 }
 
 p, h2 {
-  padding: 10rem;
   font-family: "Patua One";
+  padding: 200px;
 }
 
 h2 {
   font-size: 30rem;
   color: rgb(183, 119, 208);
+  text-shadow: -5px 5px 2px rgb(255, 246, 0),
+  5px 5px 2px rgb(255, 246, 0),
+  5px -5px 0 rgb(255, 246, 0),
+  -5px -5px 0 rgb(255, 246, 0);
 }
