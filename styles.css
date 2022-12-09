@@ -1,6 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;400;800&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap');
+
 body {
   margin: 0;
   background-color:rgb(255, 246, 0);
+}
+
+.topnav {
+  overflow: hidden;
+  border-bottom: 0.4rem black solid;
+}
+
+.topnav h3 {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 246, 0);
+}
+
+.topnav .logo {
+  float: left;
+  color: black;
+}
+
+.fbi {
+  color:rgb(183, 119, 208);
+}
+
+.topnav a {
+  font-family: 'Martian Mono', monospace;
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 0.5rem 2.2rem;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:#04AA6D;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: rgb(183, 119, 208);
+  color: white;
 }
 
 .wrapper {
@@ -21,7 +64,7 @@ header {
 }
 
 .title {
-  padding-top: 490px;
+  padding-top: 460px;
   transform: translateZ(-1px) scale(1.5);
   text-align: center;
   font-size: 8em;
@@ -51,11 +94,11 @@ header {
 }
 
 .background--5 {
-  transform: translateZ(-5px) scale(1.5);
+  transform: translateZ(-4px) scale(1.2);
 }
 
 .background--6 {
-  transform: translateZ(-5px) scale(1.5);
+  transform: translateZ(-4px) scale(1.5);
   padding-top: 1100px;
 }
 
@@ -68,13 +111,13 @@ header {
 }
 
 section {
-  padding: 10rem;
+  padding: 5rem;
   color: rgb(0, 0, 0);
 }
 
 p, h2 {
   font-family: "Patua One";
-  padding-top: 35rem;
+  padding-top: 15rem;
 }
 
 p {
@@ -82,10 +125,10 @@ p {
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 7rem;
   color: rgb(183, 119, 208);
-  text-shadow: -5px 5px 2px rgb(255, 246, 0),
-  5px 5px 2px rgb(255, 246, 0),
-  5px -5px 0 rgb(255, 246, 0),
-  -5px -5px 0 rgb(255, 246, 0);
+}
+
+.break {
+  padding-top: 100px;
 }
