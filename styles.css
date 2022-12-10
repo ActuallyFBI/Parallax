@@ -112,46 +112,53 @@ header {
 }
 
 .bg1 {
-  transform: translateZ(1px) scale(.5);
-  padding-top: 500px;
+  transform: translateZ(-17px) scale(3.1);
+  padding-right: 40px;
+  padding-top: 200px;
 }
 
 .bg2 {
-  transform: translateZ(.8px) scale(.5);
+  transform: translateZ(-6px) scale(0.5);
+  padding-bottom: 200px;
+  padding-left: 500px;
 }
 
 .bg3 {
-  transform: translateZ(1.5px) scale(.3);
+  transform: translateZ(-6px) scale(.5);
+  padding-top: 900px;
 }
 
 .bg4 {
-  transform: translateZ(1.6px) scale(.3);
-  padding-top: 150px;
+  transform: translateZ(-5px) scale(.5);
+  padding-bottom: 900px;
 }
 
 .bg5 {
-  transform: translateZ(1.7px) scale(.3);
+  transform: translateZ(-6px) scale(.5);
+  padding-bottom: 2200px;
 }
 
 .bg6 {
-  transform: translateZ(1px) scale(.5);
-  padding-top: 1000px;
+  transform: translateZ(-3px) scale(.8);
+  padding-bottom: 300px;
 }
 
 .bg7 {
-  transform: translateZ(1px) scale(.5);
+  transform: translateZ(-2.5px) scale(1.5);
+  padding-left: 620px;
 }
 
 .bg8 {
-  transform: translateZ(2px) scale(.5);
-  padding-top: 1650px;
+  transform: translateZ(-2px) scale(1.3);
+  padding-top: 1000px;
+  padding-right: 70px;
 }
 
 .bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8 {
   position: absolute;
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   z-index: -1;
 }
 
@@ -199,4 +206,12 @@ h2 {
   padding-top: 400px;
   text-align: center;
   padding-bottom: 0;
+}
+
+footer {
+  border-top: 0.3rem solid black;
+  background-color: #04AA6D;
+  color:rgb(255, 246, 0);
+  text-align: center;
+  padding: 2rem;
 }
