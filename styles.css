@@ -1,6 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;400;800&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap');
+
 body {
   margin: 0;
   background-color:rgb(255, 246, 0);
+  overflow: hidden;
+}
+
+.topnav {
+  overflow: hidden;
+  border-bottom: 0.4rem black solid;
+}
+
+.topnav h3 {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 246, 0);
+}
+
+.topnav .logo {
+  float: left;
+  color: black;
+}
+
+.fbi {
+  color:rgb(183, 119, 208);
+}
+
+.topnav a {
+  font-family: 'Martian Mono', monospace;
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 0.5rem 2.2rem;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:#04AA6D;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: rgb(183, 119, 208);
+  color: white;
 }
 
 .wrapper {
@@ -21,7 +65,7 @@ header {
 }
 
 .title {
-  padding-top: 490px;
+  padding-top: 460px;
   transform: translateZ(-1px) scale(1.5);
   text-align: center;
   font-size: 8em;
@@ -43,19 +87,20 @@ header {
 }
 
 .worm {
-  transform: translateZ(-5px) scale(1.5);
+  transform: translateZ(-4.9px) scale(1.5);
 }
 
 .background--4 {
-  transform: translateZ(-5px) scale(1.5);
+  transform: translateZ(-4.7px) scale(1.5);
 }
 
 .background--5 {
-  transform: translateZ(-5px) scale(1.5);
+  transform: translateZ(-4px) scale(1.3);
 }
 
 .background--6 {
-  transform: translateZ(-5px) scale(1.5);
+  transform: translateZ(-4px) scale(1.5);
+  padding-top: 1000px;
 }
 
 .background--1, .background--2, .background--3, .background--4, .background--5, .background--6, .worm {
@@ -66,14 +111,62 @@ header {
   z-index: -1;
 }
 
+.bg1 {
+  transform: translateZ(1px) scale(.5);
+  padding-top: 500px;
+}
+
+.bg2 {
+  transform: translateZ(.8px) scale(.5);
+}
+
+.bg3 {
+  transform: translateZ(1.5px) scale(.3);
+}
+
+.bg4 {
+  transform: translateZ(1.6px) scale(.3);
+  padding-top: 150px;
+}
+
+.bg5 {
+  transform: translateZ(1.7px) scale(.3);
+}
+
+.bg6 {
+  transform: translateZ(1px) scale(.5);
+  padding-top: 1000px;
+}
+
+.bg7 {
+  transform: translateZ(1px) scale(.5);
+}
+
+.bg8 {
+  transform: translateZ(2px) scale(.5);
+  padding-top: 1650px;
+}
+
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
 section {
-  padding: 10rem;
+  padding-top: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 0;
   color: rgb(0, 0, 0);
+  margin: 0;
 }
 
 p, h2 {
   font-family: "Patua One";
-  padding-top: 35rem;
+  padding-top: 15rem;
 }
 
 p {
@@ -81,6 +174,29 @@ p {
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 7rem;
   color: rgb(183, 119, 208);
+}
+
+.break {
+  padding-top: 150px;
+}
+
+.smaller {
+  font-size: 4rem;
+  color:#04AA6D;
+}
+
+.car {
+  height: auto;
+  max-width: 100%;
+  float: right;
+  margin: 10px;
+  padding: 10px;
+}
+
+.some--text {
+  padding-top: 400px;
+  text-align: center;
+  padding-bottom: 0;
 }
