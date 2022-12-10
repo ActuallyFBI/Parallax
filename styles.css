@@ -1,49 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;400;800&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap');
-
 body {
   margin: 0;
   background-color:rgb(255, 246, 0);
-}
-
-.topnav {
-  overflow: hidden;
-  border-bottom: 0.4rem black solid;
-}
-
-.topnav h3 {
-    margin: 0;
-    padding: 0;
-    color: rgb(255, 246, 0);
-}
-
-.topnav .logo {
-  float: left;
-  color: black;
-}
-
-.fbi {
-  color:rgb(183, 119, 208);
-}
-
-.topnav a {
-  font-family: 'Martian Mono', monospace;
-  float: right;
-  color: black;
-  text-align: center;
-  padding: 0.5rem 2.2rem;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color:#04AA6D;
-  color: white;
-}
-
-.topnav a.active {
-  background-color: rgb(183, 119, 208);
-  color: white;
 }
 
 .wrapper {
@@ -64,7 +21,7 @@ header {
 }
 
 .title {
-  padding-top: 460px;
+  padding-top: 490px;
   transform: translateZ(-1px) scale(1.5);
   text-align: center;
   font-size: 8em;
@@ -94,12 +51,11 @@ header {
 }
 
 .background--5 {
-  transform: translateZ(-4px) scale(1.2);
+  transform: translateZ(-5px) scale(1.5);
 }
 
 .background--6 {
-  transform: translateZ(-4px) scale(1.5);
-  padding-top: 1100px;
+  transform: translateZ(-5px) scale(1.5);
 }
 
 .background--1, .background--2, .background--3, .background--4, .background--5, .background--6, .worm {
@@ -111,13 +67,13 @@ header {
 }
 
 section {
-  padding: 5rem;
+  padding: 10rem;
   color: rgb(0, 0, 0);
 }
 
 p, h2 {
   font-family: "Patua One";
-  padding-top: 15rem;
+  padding-top: 35rem;
 }
 
 p {
@@ -125,10 +81,6 @@ p {
 }
 
 h2 {
-  font-size: 7rem;
+  font-size: 4rem;
   color: rgb(183, 119, 208);
-}
-
-.break {
-  padding-top: 100px;
 }
