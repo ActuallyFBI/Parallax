@@ -152,8 +152,8 @@ header {
 }
 
 .bg1 {
-  transform: translateZ(-17px) scale(3.1);
-  padding-right: 40px;
+  transform: translateZ(-17px) scale(3.2);
+  padding-right: 10px;
   padding-top: 200px;
 }
 
@@ -186,14 +186,14 @@ header {
 }
 
 .bg7 {
-  transform: translateZ(-2.5px) scale(1.8);
-  padding-left: 320px;
+  transform: translateZ(-2.5px) scale(1.9);
+  padding-left: 300px;
   padding-top: 400px;
 }
 
 .bg8 {
-  transform: translateZ(-2px) scale(1.38);
-  padding-top: 1260px;
+  transform: translateZ(-2px) scale(1.5);
+  padding-top: 1160px;
 }
 
 .bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8 {
