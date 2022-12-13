@@ -47,46 +47,6 @@ body {
   color: white;
 }
 
-.topnav {
-  overflow: hidden;
-  border-bottom: 0.4rem black solid;
-}
-
-.topnav h3 {
-    margin: 0;
-    padding: 0;
-    color: rgb(255, 246, 0);
-}
-
-.topnav .logo {
-  float: left;
-  color: black;
-}
-
-.fbi {
-  color:rgb(183, 119, 208);
-}
-
-.topnav a {
-  font-family: 'Martian Mono', monospace;
-  float: right;
-  color: black;
-  text-align: center;
-  padding: 0.5rem 2.2rem;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color:#04AA6D;
-  color: white;
-}
-
-.topnav a.active {
-  background-color: rgb(183, 119, 208);
-  color: white;
-}
-
 .wrapper {
   height: 100vh;
   overflow-y: auto;
