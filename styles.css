@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;400;800&family=Rubik+80s+Fade&family=Rubik+Vinyl&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   background-color:rgb(255, 246, 0);
@@ -12,10 +17,30 @@ body {
   border-bottom: 0.4rem black solid;
 }
 
+.bottomnav {
+  overflow: hidden;
+  border-top: 0.4rem black solid;
+  z-index: 100;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 246, 0);
+}
+
 .topnav h3 {
     margin: 0;
     padding: 0;
     color: rgb(255, 246, 0);
+}
+
+.bottomnav p {
+  margin: 0;
+  padding: 0;
+  padding-right: 30px;
+  color: rgb(255, 246, 0);
+  float: right;
+  color: black;
+  font-size: 1.5rem;
 }
 
 .topnav .logo {
@@ -37,11 +62,30 @@ body {
   font-size: 17px;
 }
 
+.bottomnav a {
+  font-family: 'Martian Mono', monospace;
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 0.5rem 2.2rem;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.bottomnav a:hover {
+  background-color:#04AA6D;
+  color: white;
+}
+
 .topnav a:hover {
   background-color:#04AA6D;
   color: white;
 }
 
+.bottomnav a.active {
+  background-color: rgb(183, 119, 208);
+  color: white;
+}
 .topnav a.active {
   background-color: rgb(183, 119, 208);
   color: white;
@@ -65,7 +109,7 @@ header {
 }
 
 .title {
-  padding-top: 460px;
+  padding-top: 440px;
   transform: translateZ(-1px) scale(1.5);
   text-align: center;
   font-size: 8em;
@@ -74,16 +118,16 @@ header {
 }
 
 .background--1 {
-  padding-top: 200px;
-  transform: translateZ(-15px) scale(2);
+  padding-bottom: 2000px;
+  transform: translateZ(-15px) scale(.5);
 }
 
 .background--2 {
-  transform: translateZ(-10px) scale(2);
+  transform: translateZ(-10px) scale(2.1);
 }
 
 .background--3 {
-  transform: translateZ(-5px) scale(1.5);
+  transform: translateZ(-5px) scale(1.6);
 }
 
 .worm {
@@ -91,7 +135,7 @@ header {
 }
 
 .background--4 {
-  transform: translateZ(-4.7px) scale(1.5);
+  transform: translateZ(-4.7px) scale(1.6);
 }
 
 .background--5 {
@@ -107,7 +151,7 @@ header {
   position: absolute;
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   z-index: -1;
 }
 
@@ -187,6 +231,12 @@ h2 {
   color: rgb(183, 119, 208);
 }
 
+h3 {
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(183, 119, 208);
+}
+
 .break {
   padding-top: 150px;
 }
@@ -210,10 +260,23 @@ h2 {
   padding-bottom: 0;
 }
 
-footer {
-  border-top: 0.3rem solid black;
-  background-color: #04AA6D;
-  color:rgb(255, 246, 0);
+.container {
+  justify-content: center;
   text-align: center;
-  padding: 2rem;
+  width: 100%;
+  height: auto;
+}
+
+.email--button {
+  width: 13%;
+  height: auto;
+  display: block;
+  margin: 50px auto;
+  padding: 0;
+}
+
+.email--text {
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
 }
