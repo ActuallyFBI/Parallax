@@ -285,4 +285,21 @@ h3 {
   padding-top: 50px;
 }
 
- 
+::-webkit-scrollbar {
+  width: 25px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(255, 246, 0); 
+  border-left: 0.4rem black solid;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(183, 119, 208); 
+  border-left: 0.4rem black solid;
+  height: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #04AA6D; 
+}
