@@ -15,6 +15,10 @@ body {
 .topnav {
   overflow: hidden;
   border-bottom: 0.4rem black solid;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(255, 246, 0);
 }
 
 .bottomnav {
@@ -162,9 +166,9 @@ header {
 }
 
 .bg2 {
-  transform: translateZ(-12px) scale(2.45);
+  transform: translateZ(-12px) scale(3) rotate(30deg);
   padding-bottom: 200px;
-  padding-left: 500px;
+  padding-left: 200px;
 }
 
 .bg3 {
@@ -196,8 +200,8 @@ header {
 }
 
 .bg8 {
-  transform: translateZ(-2px) scale(1.5);
-  padding-top: 1160px;
+  transform: translateZ(-2px) scale(2.44);
+  padding-top: 900px;
 }
 
 .bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8 {
@@ -280,3 +284,4 @@ h3 {
   margin: auto;
   padding-top: 50px;
 }
+
