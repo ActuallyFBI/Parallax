@@ -90,6 +90,7 @@ body {
   background-color: rgb(183, 119, 208);
   color: white;
 }
+
 .topnav a.active {
   background-color: rgb(183, 119, 208);
   color: white;
@@ -157,6 +158,35 @@ header {
   width: 100%;
   object-fit: contain;
   z-index: -1;
+}
+
+.second--01, .second--02,.second--03,.second--04 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  z-index: -1;
+}
+
+.second--01 {
+  transform: translateZ(-.2px) scale(1.9);
+  padding-top: 3500px;
+  padding-left: 250px;
+}
+.second--02 {
+  transform: translateZ(-.7px) scale(1.6);
+  padding-top: 4200px;
+  padding-left: 250px;
+}
+.second--03 {
+  transform: translateZ(-1px) scale(2.2);
+  padding-top: 3000px;
+  padding-left: 250px;
+}
+.second--04 {
+  transform: translateZ(-2px) scale(.9);
+  padding-top: 6750px;
+  padding-left: 250px;
 }
 
 .bg1 {
