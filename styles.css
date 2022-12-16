@@ -169,12 +169,12 @@ header {
 }
 
 .second--01 {
-  transform: translateZ(-.2px) scale(1.9);
-  padding-top: 3500px;
+  transform: translateZ(2px) scale(1.4);
+  padding-top: 4700px;
   padding-left: 250px;
 }
 .second--02 {
-  transform: translateZ(-.7px) scale(1.6);
+  transform: translateZ(1px) scale(1.6);
   padding-top: 4200px;
   padding-left: 250px;
 }
@@ -185,8 +185,13 @@ header {
 }
 .second--04 {
   transform: translateZ(-2px) scale(.9);
-  padding-top: 6750px;
+  padding-top: 6800px;
   padding-left: 250px;
+}
+.second--05 {
+  transform: translateZ(-1px) scale(1);
+  padding-top: 6550px;
+  padding-left: 400px;
 }
 
 .bg1 {
