@@ -314,6 +314,11 @@ h3 {
   padding: 0;
 }
 
+.email--button:hover {
+  transform: scale(1.20);
+  filter: hue-rotate(90deg);
+}
+
 .email--text {
   text-align: center;
   margin: auto;
